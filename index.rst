@@ -53,10 +53,9 @@ What is in Spack?
 
 The ``spack list`` command shows available packages.
 
-.. literalinclude:: outputs/basics/list.out
-   :language: console
-   :lines: 1-6
+.. code-block:: console
 
+  $ spack command here
 
 The ``spack list`` command can also take a query string. Spack
 automatically adds wildcards to both ends of the string, or you
