@@ -4,14 +4,17 @@
 Ronin / Spack Workshop
 =========================================
 
-Todays we will guide you through the process of installing 
-software using Spack. First we will build our auto scale cluster 
-then install spack. Then an introduction to spack and focusing on the 
-power of the spec syntax and the flexibility it gives
-to users. We will also cover the ``spack find`` command for viewing
-installed packages and the ``spack uninstall`` command for uninstalling
-them. Finally, we will touch on how Spack manages compilers,
-especially as it relates to using Spack-built compilers within Spack.
+In this workshop we will guide you through the process of using spack
+to build software stacks. First we will build our virtual machine
+and install spack. Then a deep dive into spack focusing on the 
+power of various specs syntax and the flexibility it gives
+to users. We will cover the ``spack install`` and ``spack spec`` for 
+installing, the ``spack find`` command for viewing installed packages 
+and the ``spack uninstall`` command for uninstalling packages. Next a 
+section on how to manage compilers with Spack paying close attention 
+while using Spack-built compilers within Spack. 
+
+
 We will include full output from all of the commands demonstrated,
 although we will frequently call attention to only small portions of
 that output (or merely to the fact that it succeeded). The provided
