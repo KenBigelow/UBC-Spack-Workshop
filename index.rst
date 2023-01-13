@@ -29,9 +29,11 @@ output is all from an AWS instance running Ubuntu 18.04.
 ----------------
 Installing Spack
 ----------------
-```
+
+````
 git clone -c feature.manyFiles=true
-```
+````
+
 Spack works out of the box. Simply clone Spack to get going. We will
 clone Spack and immediately check out the most recent release, v0.19.
 
