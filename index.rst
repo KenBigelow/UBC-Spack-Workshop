@@ -35,7 +35,7 @@ clone Spack and immediately check out the most recent release, v0.19.
 
 .. code-block:: console
 
-  git clone -c feature.manyFiles=true https://github.com/spack/spack.git
+  $ git clone -c feature.manyFiles=true https://github.com/spack/spack.git
 
 Next, add Spack to your path. Spack has some nice command-line
 integration tools, so instead of simply appending to your ``PATH``
