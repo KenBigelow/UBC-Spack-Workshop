@@ -4,7 +4,7 @@
 Ronin / Spack Workshop
 =========================================
 
-In this workshop we will guide you through the process of using spack
+In this blaj bfsfsd workshop we will guide you through the process of using spack
 to build software stacks. First we will build our virtual machine
 and install spack. Then a deep dive into spack focusing on the 
 power of various specs syntax and the flexibility it gives
