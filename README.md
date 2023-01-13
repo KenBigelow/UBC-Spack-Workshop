@@ -1,7 +1,14 @@
+.. Copyright 2013-2021 Lawrence Livermore National Security, LLC and other
+   Spack Project Developers. See the top-level COPYRIGHT file for details.
 
-----------------
-Installing Spack
-----------------
+   SPDX-License-Identifier: (Apache-2.0 OR MIT)
+
+.. _basics-tutorial:
+
+=========================================
+Basic Installation Tutorial
+=========================================
+
 This tutorial will guide you through the process of installing
 software using Spack. We will first cover the ``spack install`` command,
 focusing on the power of the spec syntax and the flexibility it gives
