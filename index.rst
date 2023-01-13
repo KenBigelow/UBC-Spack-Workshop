@@ -34,14 +34,14 @@ Spack works out of the box. Simply clone Spack to get going. We will
 clone Spack and immediately check out the most recent release, v0.19.
 
 .. code-block:: console
-  $ . share/spack/setup-env.sh
+    $ . share/spack/setup-env.sh
 
 Next, add Spack to your path. Spack has some nice command-line
 integration tools, so instead of simply appending to your ``PATH``
 variable, source the Spack setup script.
 
 .. code-block:: console
-  $ . share/spack/setup-env.sh
+    $ . share/spack/setup-env.sh
 
 You're good to go!
 
