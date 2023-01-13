@@ -8,10 +8,10 @@ In this workshop we will guide you through the process of using spack
 to build software stacks. First we will build our virtual machine
 and install spack. Then a deep dive into spack focusing on the 
 power of various specs syntax and the flexibility it gives
-to users. We will cover the ``spack install`` and ``spack spec`` for 
-installing, the ``spack find`` command for viewing installed packages 
-and the ``spack uninstall`` for uninstalling packages. Next a 
-section on how to manage compilers with Spack paying close attention 
+to users. We will cover the ``spack install``/``spack spec`` for 
+installing, the ``spack find``/``spack list`` command for viewing 
+installed packages and the ``spack uninstall`` for uninstalling packages. 
+Next a section on how to manage compilers with Spack paying close attention 
 while using Spack-built compilers within Spack. Then we will cover 
 custom build scripts for managing complex software stacks as well lessons
 learned using spack. Finally we will take everything we learned using spack
