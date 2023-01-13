@@ -1,12 +1,13 @@
-.. _basics-tutorial:
+.. _ubc-workshop-:
 
 =========================================
-Basic Installation Tutorial
+Ronin / Spack Workshop
 =========================================
 
-This tutorial will guide you through the process of installing
-software using Spack. We will first cover the ``spack install`` command,
-focusing on the power of the spec syntax and the flexibility it gives
+Todays we will guide you through the process of installing 
+software using Spack. First we will build our auto scale cluster 
+then install spack. Then an introduction to spack and focusing on the 
+power of the spec syntax and the flexibility it gives
 to users. We will also cover the ``spack find`` command for viewing
 installed packages and the ``spack uninstall`` command for uninstalling
 them. Finally, we will touch on how Spack manages compilers,
