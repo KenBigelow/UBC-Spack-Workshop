@@ -5,9 +5,7 @@
 
 .. _basics-tutorial:
 
-=========================================
 Basic Installation Tutorial
-=========================================
 
 This tutorial will guide you through the process of installing
 software using Spack. We will first cover the ``spack install`` command,
