@@ -33,11 +33,9 @@ Installing Spack
 Spack works out of the box. Simply clone Spack to get going. We will
 clone Spack and immediately check out the most recent release, v0.19.
 
-.. literalinclude:: outputs/basics/clone.out
-   :language: console
+.. code-block:: console
 
-.. literalinclude:: outputs/basics/checkout.out
-   :language: console
+  git clone -c feature.manyFiles=true https://github.com/spack/spack.git
 
 Next, add Spack to your path. Spack has some nice command-line
 integration tools, so instead of simply appending to your ``PATH``
