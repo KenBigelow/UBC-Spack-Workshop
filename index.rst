@@ -32,11 +32,14 @@ Installing Spack
 ----------------
 
 Spack works out of the box. Simply clone Spack to get going. We will
-clone Spack and immediately check out the most recent release, v0.19.
+clone Spack and immediately check out the most recent release, v0.20.
 
 .. code-block:: console
 
   $ git clone -c feature.manyFiles=true https://github.com/spack/spack.git
+  
+.. code-block:: console
+
   Cloning into '/home/spack1/spack'...
   remote: Enumerating objects: 403295, done.K
   remote: Counting objects: 100% (235/235), done.K
