@@ -156,6 +156,10 @@ The ``spack`` command will prompt a feature rich list of common spack commands.
   spack help --spec      help on the package specification syntax
   spack docs             open https://spack.rtfd.io/ in a browser
 
+-----------------
+Spack Common Commands
+-----------------
+
 The ``spack list`` command shows available packages to install.
 
 .. code-block:: console
