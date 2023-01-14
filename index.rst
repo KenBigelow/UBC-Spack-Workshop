@@ -67,6 +67,8 @@ Lets make sure have the needed ubuntu packages for the VM.
   $ sudo apt install build-essential ca-certificates coreutils curl environment-modules gfortran git gpg lsb-release python3 python3-distutils python3-venv unzip zip
   
 If you have already installed the above packages the output will varry. 
+
+Now lets install spack.
   
 .. code-block:: console
 
@@ -95,5 +97,66 @@ You're good to go!
 -----------------
 Inside Spack
 -----------------
+
+The ``spack`` command will prompt a feature rich list of common spack commands. 
+
+.. code-block:: console
+
+  $ . spack
+
+.. code-block:: console
+
+.. code-block:: console
+
+  A flexible package manager that supports multiple versions,
+  configurations, platforms, and compilers.
+  
+  These are common spack commands:
+  
+  query packages:
+  list                  list and search available packages
+  info                  get detailed information on a particular package
+  find                  list and search installed packages
+  
+  build packages:
+  install               build and install packages
+  uninstall             remove installed packages
+  gc                    remove specs that are now no longer needed
+  spec                  show what would be installed, given a spec
+  
+  configuration:
+  external              manage external packages in Spack configuration
+  
+  environments:
+  env                   manage virtual environments
+  view                  project packages to a compact naming scheme on the filesystem.
+  
+  create packages:
+  create                create a new package file
+  edit                  open package files in $EDITOR
+  
+  system:
+  arch                  print architecture information about this machine
+  audit                 audit configuration files, packages, etc.
+  compilers             list available compilers
+  
+  user environment:
+  load                  add package to the user environment
+  module                generate/manage module files
+  unload                remove package from the user environment
+  
+  optional arguments:
+  --color {always,never,auto}
+                        when to colorize output (default: auto)
+  -V, --version         show version number and exit
+  -h, --help            show this help message and exit
+  -k, --insecure        do not check ssl certificates when downloading
+  
+  more help:
+  spack help --all       list all commands and options
+  spack help <command>   help on a specific command
+  spack help --spec      help on the package specification syntax
+  spack docs             open https://spack.rtfd.io/ in a browser
+
 
 
