@@ -1,7 +1,7 @@
 .. _ubc-workshop-:
 
 =========================================
-Ronin / Spack Workshop
+RONIN / Spack Workshop
 =========================================
 
 In this workshop we will guide you through the process of using spack
