@@ -175,4 +175,12 @@ Some example query strings for fun.
   $ spack list '*lib'
   $ spack list 'mpi'
   
+The ``spack find`` command shows installed packages / version / compiller used.
+
+.. code-block:: console
+
+  $ spack find
+  
+  
+  
 
