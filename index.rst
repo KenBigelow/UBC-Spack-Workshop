@@ -106,8 +106,6 @@ The ``spack`` command will prompt a feature rich list of common spack commands.
 
 .. code-block:: console
 
-.. code-block:: console
-
   A flexible package manager that supports multiple versions,
   configurations, platforms, and compilers.
   
