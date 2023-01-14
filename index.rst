@@ -65,6 +65,7 @@ Lets make sure have the needed ubuntu packages for the VM.
 
   $ sudo apt update
   $ sudo apt install build-essential ca-certificates coreutils curl environment-modules gfortran git gpg lsb-release python3 python3-distutils python3-venv unzip zip
+  $ sudo apt install awscli
   
 If you have already installed the above packages the output will varry. 
 
@@ -180,20 +181,35 @@ The ``spack versions`` command list available versions of a package.
 .. code-block:: console
 
   $ spack versions --help
-  $ spack versions lammps
+  $ spack versions tcl
   
 The ``spack find`` command shows installed packages / version / compiller used.
 
 .. code-block:: console
 
   $ spack find --help
-  $ spack find
+  $ spack find 
   
 The ``spack spec`` command shows what would be installed, given a spec.
 
 .. code-block:: console
 
   $ spack spec --help
-  $ spack spec -I lammps
+  $ spack spec -I tcl
+
+The ``spack install`` command will build and install packages.
+
+.. code-block:: console
+
+  $ spack install --help
+  $ spack install tcl
+  
+The ``spack uninstall`` command will remove installed packages.
+
+.. code-block:: console
+
+  $ spack uninstall --help
+  $ spack uninstall tcl
+  
 
 
