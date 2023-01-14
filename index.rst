@@ -164,7 +164,7 @@ The ``spack list`` command shows available packages to install.
 
 .. code-block:: console
 
-  $ spack list
+  $ spack list --help
 
 Some example query strings for fun.
 
@@ -179,8 +179,14 @@ The ``spack find`` command shows installed packages / version / compiller used.
 
 .. code-block:: console
 
+  $ spack find --help
   $ spack find
   
-  
+The ``spack spec`` command shows what would be installed, given a spec.
+
+.. code-block:: console
+
+  $ spack spec --help
+  $ spack spec -I lammps
   
 
