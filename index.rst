@@ -175,6 +175,13 @@ Some example query strings for fun.
   $ spack list '*lib'
   $ spack list 'mpi'
   
+The ``spack versions`` command list available versions of a package.
+
+.. code-block:: console
+
+  $ spack versions --help
+  $ spack versions lammps
+  
 The ``spack find`` command shows installed packages / version / compiller used.
 
 .. code-block:: console
@@ -188,5 +195,5 @@ The ``spack spec`` command shows what would be installed, given a spec.
 
   $ spack spec --help
   $ spack spec -I lammps
-  
+
 
