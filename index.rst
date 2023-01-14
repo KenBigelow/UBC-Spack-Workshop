@@ -36,6 +36,13 @@ clone Spack and immediately check out the most recent release, v0.19.
 .. code-block:: console
 
   $ git clone -c feature.manyFiles=true https://github.com/spack/spack.git
+  Cloning into '/home/spack1/spack'...
+  remote: Enumerating objects: 403295, done.K
+  remote: Counting objects: 100% (235/235), done.K
+  remote: Compressing objects: 100% (147/147), done.K
+  remote:nTotale4032959(delta993),4reused,1817(deltaB60),0pack-reused 403060K
+  Receiving objects: 100% (403295/403295), 203.42 MiB | 39.28 MiB/s, done.
+  Resolving deltas: 100% (162372/162372), done.
 
 Next, add Spack to your path. Spack has some nice command-line
 integration tools, so instead of simply appending to your ``PATH``
