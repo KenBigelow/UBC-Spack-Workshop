@@ -65,6 +65,9 @@ Lets make sure have the needed ubuntu packages for the VM.
 
   Cloning into '/home/spack1/spack'...
   remote: Enumerating objects: 403295, done.K
+  $ sudo apt update
+  $sudo apt install build-essential ca-certificates coreutils curl environment-modules 
+  gfortran git gpg lsb-release python3 python3-distutils python3-venv unzip zip
 
 .. code-block:: console
     $ sudo apt update
