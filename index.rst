@@ -19,10 +19,11 @@ and the package singularity / apptainer to create a singularity container
 and run this container using slurm inside of the autoscale cluster then
 visualize the results using the RONIN Link application. 
 
-We will include full output from all of the commands demonstrated,
-although we will frequently call attention to only small portions of
-that output (or merely to the fact that it succeeded). The provided
-output is all from an AWS instance running Ubuntu 18.04.
+We will include a few output from the commands demonstrated, to save time
+we will frequently call attention to only small portions of
+that output.
+
+The provided output is all from an AWS instance running Ubuntu 18.04.
 
 .. _basics-tutorial-install:
 
