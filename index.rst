@@ -241,7 +241,7 @@ lets go ahead and install tcl.
 
   $ spack install tcl
 
-Now lets start to add custom search strings and flags to our install specifications ``spec`` 
+Now lets start to add custom search strings and flags to our install specifications ``spec``. 
 Always use the ``spack spec -I`` command to spec out the install before you do the final install.
 
 first lets get some info the nmap package.
@@ -250,13 +250,19 @@ first lets get some info the nmap package.
 
   $ spack info nmap
  
-In one command you get description,homepage,versions,variant flags, dependencies and more.
+In one command you get the description,homepage,versions,variant flags, dependencies and more.
 
-
+Lets spec out version 7.90, disable zenmap and enable nmap-update
 
 .. code-block:: console
 
-  $ 
+  $ spack spec -I nmap@7.90
+  $ spack spec -I nmap@7.90 ~zenmap
+  $ spack spec -I nmap@7.90 ~zenmap +nmap-update
+
+
+
+
   
   
 
