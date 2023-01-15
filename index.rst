@@ -235,4 +235,8 @@ Lets start with a simple package install of tcl ``spack install``.
 
 You will see the packages needed as well the package requested / version / compiler version. 
 
+lets go ahead and install tcl.
 
+.. code-block:: console
+
+  $ spack install tcl
