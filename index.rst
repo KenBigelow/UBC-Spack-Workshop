@@ -215,3 +215,24 @@ The ``spack uninstall`` command will remove installed packages.
 Spack Install / Uninstall / Build Caches
 -----------------
 
+Lets start with a simple package install of tcl ``spack install``.
+
+.. code-block:: console
+
+  $ spack spec -I  tcl
+  
+.. code-block:: console
+
+  $ spack spec -I  tcl
+  Input spec
+  --------------------------------
+  -   tcl
+  
+  Concretized
+  --------------------------------
+  -   tcl@8.6.12%gcc@7.5.0 build_system=autotools arch=linux-ubuntu18.04-skylake_avx512
+  [+]      ^zlib@1.2.13%gcc@7.5.0+optimize+pic+shared build_system=makefile arch=linux-ubuntu18.04-skylake_avx512
+
+You will see the packages needed as well the package requested / version / compiler version. 
+
+
