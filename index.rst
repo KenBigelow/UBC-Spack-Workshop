@@ -240,3 +240,23 @@ lets go ahead and install tcl.
 .. code-block:: console
 
   $ spack install tcl
+
+Now lets start to add custom search strings and flags to our install specifications ``spec`` 
+Always use the ``spack spec -I`` command to spec out the install before you do the final install.
+
+first lets get some info the nmap package.
+
+.. code-block:: console
+
+  $ spack info nmap
+ 
+In one command you get description,homepage,versions,variant flags, dependencies and more.
+
+
+
+.. code-block:: console
+
+  $ 
+  
+  
+
