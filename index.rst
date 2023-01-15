@@ -211,5 +211,7 @@ The ``spack uninstall`` command will remove installed packages.
   $ spack uninstall --help
   $ spack uninstall tcl
   
-
+-----------------
+Spack Install / Uninstall / Build Caches
+-----------------
 
