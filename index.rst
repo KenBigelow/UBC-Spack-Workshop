@@ -282,8 +282,26 @@ Loading up installed modules
   /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-skylake_avx512/gcc-7.5.0/htop-3.2.0-zoznzvyv5ilhshf3at4gqnkhajzgdev7/bin/htop
   $ htop --version
   htop 3.2.0
-  
-  
+
+Spack build Caches 
+
+The use of a ``binary cache`` can result in software installs up to 20x faster 
+for common Spack package installs. Below we will show how to setup / search / install 
+software packages using the AWS Spack rolling binary cache. 
+
+Using the binary cache
+
+.. code-block:: console
+
+  $ spack mirror add binary_mirror https://binaries.spack.io/develop
+  $ spack buildcache keys --install --trust
+  $ spack mirror list
+
+
+
+
+
+
 
   
 
