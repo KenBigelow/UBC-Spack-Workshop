@@ -344,7 +344,7 @@ Now lets try to install a package that is listed.
   $ spack install --cache-only intel-tbb
   
 .. code-block:: console
-
+  
   $ ==> Installing intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36
     ==> Fetching https://binaries.spack.io/develop/build_cache/linux-ubuntu18.04-x86_64-gcc-7.5.0-intel-tbb-2020.3
     rbexoowaqll5pqen452ef2wqho6jlz36.spec.json.sig
