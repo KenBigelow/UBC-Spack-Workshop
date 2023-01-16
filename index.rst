@@ -93,7 +93,7 @@ variable, source the Spack setup script.
 
   $ . share/spack/setup-env.sh
 
-You're good to go!
+Ready to go!
 
 -----------------
 Inside Spack
@@ -248,20 +248,24 @@ first lets get some info the nmap package.
 
 .. code-block:: console
 
-  $ spack info nmap
+  $ spack info htop
  
 In one command you get the description,homepage,versions,variant flags, dependencies and more.
 
-Lets spec out version 7.90, disable zenmap and enable nmap-update
+Lets spec out version 3.2.0, disable zenmap and enable nmap-update
 
 .. code-block:: console
 
-  $ spack spec -I nmap@7.90
-  $ spack spec -I nmap@7.90 ~zenmap
-  $ spack spec -I nmap@7.90 ~zenmap +nmap-update
+  $ spack spec -I htop@3.2.0
+  $ spack spec -I htop@3.2.0 ~hwloc 
+  $ spack spec -I htop@3.2.0 ~hwloc +debug
 
 
+Lets go ahead and insall htop now. 
 
+.. code-block:: console
+
+  $ spack install htop@3.2.0 ~hwloc +debug
 
   
   
