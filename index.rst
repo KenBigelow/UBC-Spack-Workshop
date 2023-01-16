@@ -319,7 +319,6 @@ This is a very new addition to Spack. The options are limited
 and so filtering to specific arch is not yet functional. 
 
 Buid caches are hit and miss depending on spack versions and installed packaged. 
-
 For example lammps is not listed in the buildcache mirror list. So most of the install
 will stll take some time.
 
