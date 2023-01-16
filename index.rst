@@ -252,7 +252,7 @@ first lets get some info the nmap package.
  
 In one command you get the description,homepage,versions,variant flags, dependencies and more.
 
-Lets spec out version 3.2.0, disable zenmap and enable nmap-update
+Lets spec out version 3.2.0, disable hwloc and enable debug
 
 .. code-block:: console
 
@@ -267,6 +267,23 @@ Lets go ahead and insall htop now.
 
   $ spack install htop@3.2.0 ~hwloc +debug
 
+Loading up installed modules 
+
+.. code-block:: console
+
+  $ which htop
+  /usr/bin/htop
+  $ htop --version
+  htop 2.1.0 - (C) 2004-2018 Hisham Muhammad
+  Released under the GNU GPL.
   
+  $ spack load htop
+  $ which htop
+  /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-skylake_avx512/gcc-7.5.0/htop-3.2.0-zoznzvyv5ilhshf3at4gqnkhajzgdev7/bin/htop
+  $ htop --version
+  htop 3.2.0
+  
+  
+
   
 
