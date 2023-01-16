@@ -283,7 +283,9 @@ Loading up installed modules
   $ htop --version
   htop 3.2.0
 
+-----------------
 Spack build Caches 
+-----------------
 
 The use of a ``binary cache`` can result in softwar e installs up to 20x faster 
 for common Spack package installs. This tutorial will explain through the process 
@@ -325,7 +327,7 @@ Some example commands to try.
 
 .. code-block:: console
 
-  $ spack spec -I intel-mpi external-libfabric=on
+  $ spack spec -I intel-mpi
   
 
 
