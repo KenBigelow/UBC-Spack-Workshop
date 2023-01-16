@@ -336,14 +336,13 @@ Some example commands to try.
     ==> Error: No binary for intel-mpi-2019.10.317-3d3xzc5ibrsjtqvgsv7ewvhdf5uw3ffj found when cache-only specified
     ==> Error: Failed to install intel-mpi due to SystemExit: 1
   
-Now lets try to install a package that is listed. 
+Now lets try to install a package that is listed.
+
 .. code-block:: console
 
   $ spack buildcache list --allarch | grep intel
   $ spack spec -I intel-tbb
   $ spack install --cache-only intel-tbb
-  
-
 
 
 
