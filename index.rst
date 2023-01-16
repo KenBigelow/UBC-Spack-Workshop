@@ -328,6 +328,8 @@ Some example commands to try.
 .. code-block:: console
 
   $ spack spec -I intel-mpi
+  $ spack install --cache-only intel-mpi
+  
   
 
 
