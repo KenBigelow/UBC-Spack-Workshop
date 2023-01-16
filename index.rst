@@ -329,11 +329,14 @@ Some example commands to try.
 
   $ spack spec -I intel-mpi
   $ spack install --cache-only intel-mpi
+
+.. code-block:: console
+
+  $ ==> Installing intel-mpi-2019.10.317-3d3xzc5ibrsjtqvgsv7ewvhdf5uw3ffj
+    ==> intel-mpi exists in binary cache but with different hash
+    ==> Error: No binary for intel-mpi-2019.10.317-3d3xzc5ibrsjtqvgsv7ewvhdf5uw3ffj found when cache-only specified
+    ==> Error: Failed to install intel-mpi due to SystemExit: 1
   
-  
-
-
-
 
 
 
