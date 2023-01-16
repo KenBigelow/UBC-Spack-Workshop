@@ -344,6 +344,21 @@ Now lets try to install a package that is listed.
   $ spack spec -I intel-tbb
   $ spack install --cache-only intel-tbb
 
+.. code-block:: console
+
+  $ ==> Installing intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36
+  ==> Fetching https://binaries.spack.io/develop/build_cache/linux-ubuntu18.04-x86_64-gcc-7.5.0-intel-tbb-2020.3
+  rbexoowaqll5pqen452ef2wqho6jlz36.spec.json.sig
+  gpg: Signature made Thu Sep  8 19:58:45 2022 UTC
+  gpg:                using RSA key D2C7EB3F2B05FA86590D293C04001B2E3DB0C723
+  gpg: Good signature from "Spack Project Official Binaries <maintainers@spack.io>" [ultimate]
+  ==> Fetching https://binaries.spack.io/develop/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/intel-tbb-2020.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-intel
+  tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36.spack
+  ==> Extracting intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36 from binary cache
+  ==> intel-tbb: Successfully installed intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36
+  Search: 0.00s.  Fetch: 1.11s.  Install: 0.53s.  Total: 1.64s
+  [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-x86_64/gcc-7.5.0/intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36
+  
 
 
 
