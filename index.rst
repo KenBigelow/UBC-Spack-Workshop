@@ -285,9 +285,10 @@ Loading up installed modules
 
 Spack build Caches 
 
-The use of a ``binary cache`` can result in software installs up to 20x faster 
-for common Spack package installs. Below we will show how to setup / search / install 
-software packages using the AWS Spack rolling binary cache. 
+The use of a ``binary cache`` can result in softwar e installs up to 20x faster 
+for common Spack package installs. This tutorial will explain through the process 
+of setting up a source mirror with a binary cache mirrors. Binary caches allow one 
+to install pre-compiled binaries to your spack installation path.
 
 Using the binary cache
 
@@ -305,6 +306,30 @@ Using the binary cache
   gpg: inserting ownertrust of 6
   
   $ spack mirror list
+
+Now lets take a look inside the buidcache 
+
+.. code-block:: console
+
+  $ spack buildcache list --allarch
+
+This is a very new addition to Spack. The options are limited
+and so filtering to specific arch is not yet functional. 
+
+Buid caches are hit and miss depending on spack versions and installed packaged. 
+
+For example lammps is not listed in the buildcache mirror list. So most of the install
+will stll take some time.
+
+Some example commands to try. 
+
+.. code-block:: console
+
+  $ spack spec -I intel-mpi external-libfabric=on
+  
+
+
+
 
 
 
