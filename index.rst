@@ -446,8 +446,28 @@ Lets use the new version of gcc/8.4.0 and install a few packages.
   $ spack find --loaded
   $ spack spec -I htop%gcc@8.4.0
   $ spack install htop%gcc@8.4.0
-  $ 
+  $ spack find
 
+The end result should result in packages both installed using ``gcc@7.5.0`` 
+and ``gcc@8.4.0``.
+
+Installing gcc/8.4.0 did take 1h 27m total as you can see above. I did not use a build
+cache. Lets use a build cache and see how long it takes. 
+
+.. code-block:: console
+
+  $ spack unload gcc@8.4.0
+  $ spack buildcache list --allarch | grep gcc
+  $ spack install --cache-only gcc@8.4.0
+  $ spack find
+  
+.. code-block:: console
+
+  ==> gcc: Successfully installed gcc-8.4.0-tf5qxoqsrla6jzuno5wdcwsn6saeiy2f
+  Search: 0.00s.  Fetch: 12.08s.  Install: 11.64s.  Total: 23.72s
+  [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-x86_64/gcc-7.5.0/gcc-8.4.0-tf5qxoqsrla6jzuno5wdcwsn6saeiy2f
+ 
+Notice the difference with the installed packaged / compiler version vs non cache.  
 
 -----------------
 Spack Install Scripts
