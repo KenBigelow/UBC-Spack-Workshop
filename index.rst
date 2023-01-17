@@ -406,6 +406,12 @@ Lets install a new compiler
 .. code-block:: console
 
   $ spack install gcc@8.4.0
+  
+  .. code-block:: console
+
+  ==> gcc: Successfully installed gcc-8.4.0-kf55dvoi3iuagjkvomjti2lemura7b42
+    Stage: 8.83s.  Autoreconf: 0.00s.  Configure: 2.33s.  Build: 1h 26m 41.56s.  Install: 32.20s.  Total: 1h 27m 25.21s
+  [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-skylake_avx512/gcc-7.5.0/gcc-8.4.0-kf55dvoi3iuagjkvomjti2lemura7b42
 
 Now lets add the new compiler to our list of available compilers. Using the 
 ``spack compiler add`` command. This will allow future packages to build 
@@ -414,13 +420,26 @@ with gcc@8.4.0 if selected.
 .. code-block:: console
 
   $ spack find -p gcc
-  $ spack compiler add
-  $ spack location -i gcc@8.4.0
+  $ spack compiler add $(spack location -i gcc@8.4.0)
+  $ spack compilers
 
 .. code-block:: console
 
-  $ 
+  -- linux-ubuntu18.04-skylake_avx512 / gcc@7.5.0 -----------------
+  gcc@8.4.0  /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-skylake_avx512/gcc-7.5.0/gcc-8.4.0-kf55dvoi3iuagjkvomjti2lemura7b42
+  ==> 1 installed package
   
+  ==> Added 1 new compiler to /home/ubuntu/.spack/linux/compilers.yaml
+    gcc@8.4.0
+  ==> Compilers are defined in the following files:
+    /home/ubuntu/.spack/linux/compilers.yaml
+    
+  ==> Available compiler
+  -- gcc ubuntu18.04-x86_64 ---------------------------------------
+  gcc@8.4.0  gcc@7.5.0  
+  
+
+
 -----------------
 Spack Install Scripts
 -----------------
