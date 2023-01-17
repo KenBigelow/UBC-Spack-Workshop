@@ -438,6 +438,15 @@ with gcc@8.4.0 if selected.
   -- gcc ubuntu18.04-x86_64 ---------------------------------------
   gcc@8.4.0  gcc@7.5.0  
   
+Lets use the new version of gcc/8.4.0 and install a few packages. 
+
+.. code-block:: console
+
+  $ spack load gcc@8.4.0
+  $ spack find --loaded
+  $ spack spec -I htop%gcc@8.4.0
+  $ spack install htop%gcc@8.4.0
+  $ 
 
 
 -----------------
