@@ -376,6 +376,16 @@ Now lets try to install a package that is listed.
   Search: 0.00s.  Fetch: 1.11s.  Install: 0.53s.  Total: 1.64s
   [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-x86_64/gcc-7.5.0/intel-tbb-2020.3-rbexoowaqll5pqen452ef2wqho6jlz36
   
+To remove the binary cache from your spack environment. 
+
+.. code-block:: console
+
+  $ spack mirror list
+  $ spack mirror remove binary_mirror
+  $ spack clean
+  $ spack clean -b
+
+
 
 
 
