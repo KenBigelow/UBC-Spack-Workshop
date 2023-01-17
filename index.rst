@@ -387,6 +387,25 @@ To remove the binary cache from your spack environment.
 Spack Compilers
 -----------------
 
+Spack can install and manage a list of available compilers on the system, detected 
+automatically from the user’s ``PATH`` variable. The ``spack compilers`` command 
+is an alias for the command ``spack compiler list``.
+
+.. code-block:: console
+
+  $ spack compilers
+  
+.. code-block:: console
+
+  ==> Available compilers
+  -- gcc ubuntu18.04-x86_64 ---------------------------------------
+  gcc@7.5.0
+  
+Lets install a new compiler 
+
+.. code-block:: console
+
+  $ spack install gcc@8.4.0
 
 
 
