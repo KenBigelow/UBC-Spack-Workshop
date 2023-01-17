@@ -41,15 +41,13 @@ versions and configuration options concisely. Spack is also simple for package
 authors: package files are written in pure Python, and specs allow package authors to maintain 
 a single file for many different builds of the same package.
 
-A big thanks to the Spack team for a great Spack tutorial. 
+A big thanks to the Spack team for a great Spack tutorial for references. 
 
 Full citation: Todd Gamblin, Gregory Becker, Massimiliano Culpo, Tamara Dahlgren, Adam J. 
 Stewart, and Harmen Stoppels. Managing HPC Software Complexity with Spack. 
 Supercomputing 2022 (SC’22). Dallas, TX, November 13, 2022.
 
 https://spack-tutorial.readthedocs.io/en/latest/
-
-.. _basics-tutorial-install:
 
 ----------------
 Installing Spack
@@ -385,6 +383,9 @@ To remove the binary cache from your spack environment.
   $ spack clean
   $ spack clean -b
 
+-----------------
+Spack Compilers
+-----------------
 
 
 
