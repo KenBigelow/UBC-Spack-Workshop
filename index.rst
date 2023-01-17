@@ -266,6 +266,23 @@ Lets go ahead and insall htop now.
 .. code-block:: console
 
   $ spack install htop@3.2.0 ~hwloc +debug
+  
+To uninstall a spack package. 
+
+.. code-block:: console
+
+  $ spack uninstall conmon@2.1.5
+
+Notice how it fails due to dependencies with packages. 
+
+.. code-block:: console
+
+  ==> Will not uninstall conmon@2.1.5%gcc@7.5.0/bsa7h3n
+  The following packages depend on it:
+      -- linux-ubuntu18.04-skylake_avx512 / gcc@7.5.0 -----------------
+      3l2cofs apptainer@1.1.4
+  ==> Error: There are still dependents.
+    use `spack uninstall --dependents` to remove dependents too
 
 Loading up installed modules 
 
