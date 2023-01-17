@@ -407,7 +407,7 @@ Lets install a new compiler
 
   $ spack install gcc@8.4.0
   
-  .. code-block:: console
+.. code-block:: console
 
   ==> gcc: Successfully installed gcc-8.4.0-kf55dvoi3iuagjkvomjti2lemura7b42
     Stage: 8.83s.  Autoreconf: 0.00s.  Configure: 2.33s.  Build: 1h 26m 41.56s.  Install: 32.20s.  Total: 1h 27m 25.21s
