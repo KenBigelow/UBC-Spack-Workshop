@@ -442,7 +442,7 @@ Using Apptainer Containers
 -----------------
 
 -----------------
-Using RONIN Autoscale Cluster 
+RONIN Autoscale Cluster
 -----------------
 
 -----------------
@@ -450,7 +450,7 @@ Using Slurm
 -----------------
 
 -----------------
-Visualize Results 
+Visualize Results
 -----------------
 
 
