@@ -299,7 +299,7 @@ Loading up installed modules
   htop 3.2.0
 
 -----------------
-Spack build Caches 
+Spack Build Caches 
 -----------------
 
 The use of a ``binary cache`` can result in softwar e installs up to 20x faster 
@@ -407,10 +407,53 @@ Lets install a new compiler
 
   $ spack install gcc@8.4.0
 
+Now lets add the new compiler to our list of available compilers. Using the 
+``spack compiler add`` command. This will allow future packages to build 
+with gcc@8.4.0 if selected.
 
+.. code-block:: console
 
+  $ spack find -p gcc
+  $ spack compiler add
+  $ spack location -i gcc@8.4.0
 
+.. code-block:: console
 
-
+  $ 
   
+-----------------
+Spack Install Scripts
+-----------------
+
+-----------------
+Spack Cheat Sheet 
+-----------------
+
+-----------------
+Apptainer / Singularity 
+-----------------
+
+-----------------
+Building Apptainer Containers
+-----------------
+
+-----------------
+Using Apptainer Containers
+-----------------
+
+-----------------
+Using RONIN Autoscale Cluster 
+-----------------
+
+-----------------
+Using Slurm
+-----------------
+
+-----------------
+Visualize Results 
+-----------------
+
+
+
+
 
