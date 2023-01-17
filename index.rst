@@ -466,7 +466,11 @@ cache. Lets use a build cache and see how long it takes.
   ==> gcc: Successfully installed gcc-8.4.0-tf5qxoqsrla6jzuno5wdcwsn6saeiy2f
   Search: 0.00s.  Fetch: 12.08s.  Install: 11.64s.  Total: 23.72s
   [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-x86_64/gcc-7.5.0/gcc-8.4.0-tf5qxoqsrla6jzuno5wdcwsn6saeiy2f
- 
+  
+  -- linux-ubuntu18.04-skylake_avx512 / gcc@7.5.0 -----------------
+  -- linux-ubuntu18.04-skylake_avx512 / gcc@8.4.0 -----------------
+  -- linux-ubuntu18.04-x86_64 / gcc@7.5.0 -------------------------
+  
 Notice the difference with the installed packaged / compiler version vs non cache.  
 
 -----------------
