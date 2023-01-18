@@ -477,6 +477,18 @@ Notice the difference with the installed packaged / compiler version vs non cach
 Spack Install Scripts
 -----------------
 
+Lets look at 2 different ways that we use scripts to work with spack. 1 with yaml scripts to setup
+for container environments and the other for large complicated installs with the need to replicate 
+easily. 
+
+Step 1 yaml files
+
+.. code-block:: console
+
+  $ spack spec --fresh -y dcm2niix > dc2niix.yaml
+  $
+
+
 -----------------
 Spack Cheat Sheet 
 -----------------
