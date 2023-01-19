@@ -1,7 +1,7 @@
 .. _ubc-workshop-:
 
 =========================================
-RONIN / Spack Workshop
+RONIN Auto Scale Cluster / Spack Workshop
 =========================================
 
 In this workshop we will guide you through the process of using spack
