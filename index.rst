@@ -512,13 +512,43 @@ Apptainer / Singularity
 Building Apptainer Containers
 -----------------
 
+.. code-block:: console
+
+  $ vi spack.yaml
+  
+spack:
+ specs:
+  - dcm2niix
+ container:
+  format: singularity
+  
+.. code-block:: console
+
+  $ spack containerize > spack-dcm2niix.def
+  
 -----------------
 Using Apptainer Containers
 -----------------
+.. code-block:: console
 
+  $ singularity exec spack-dcm2niix.sif dcm2niix -h
 -----------------
 RONIN Autoscale Cluster
 -----------------
+
+First let us configure the object storage on our cluster to grab 
+the singularity images we created. 
+
+.. code-block:: console
+
+  $ aws configure
+
+Below is the example output infor
+AWS Access Key ID [********************]:
+AWS Secret Access Key [********************]:
+Default region name [ca-central-1]:
+Default output format [JSON]:
+
 
 -----------------
 Using Slurm
