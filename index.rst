@@ -545,10 +545,10 @@ First let us configure the object storage on our cluster to grab the singularity
 
 Below is the example output for the information needed to connect to the S3 Bucket. 
 
-AWS Access Key ID [********************]:
-AWS Secret Access Key [********************]:
-Default region name [ca-central-1]:
-Default output format [JSON]:
+AWS Access Key ID 
+AWS Secret Access Key
+Default region name ca-central-1
+Default output format JSON
 
 
 -----------------
