@@ -555,6 +555,10 @@ Below is the example output for the information needed to connect to the S3 Buck
   AWS Secret Access Key
   Default region name ca-central-1
   Default output format JSON
+  
+.. code-block:: console
+
+  $ aws s3 ls s3://ubc-o-workshop.store.ubc-hpc.cloud
 
 -----------------
 Using Slurm
