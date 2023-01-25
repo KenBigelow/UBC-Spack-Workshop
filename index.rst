@@ -516,11 +516,13 @@ Building Apptainer Containers
 
   $ vi spack.yaml
   
-spack:
- specs:
-  - dcm2niix
- container:
-  format: singularity
+.. code-block:: console
+  
+  spack:
+   specs:
+    - dcm2niix
+   container:
+    format: singularity
   
 .. code-block:: console
 
@@ -537,6 +539,7 @@ Using Apptainer Containers
 -----------------
 RONIN Autoscale Cluster
 -----------------
+
 First let us configure the object storage on our cluster to grab the singularity images we created. 
 
 .. code-block:: console
@@ -545,11 +548,13 @@ First let us configure the object storage on our cluster to grab the singularity
 
 Below is the example output for the information needed to connect to the S3 Bucket. 
 
-AWS Access Key ID 
-AWS Secret Access Key
-Default region name ca-central-1
-Default output format JSON
 
+.. code-block:: console
+
+  AWS Access Key ID 
+  AWS Secret Access Key
+  Default region name ca-central-1
+  Default output format JSON
 
 -----------------
 Using Slurm
