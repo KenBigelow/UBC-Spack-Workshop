@@ -617,6 +617,7 @@ If everything is working you should see the following.
 Once the job gets underway you should see the following. 
 
 .. code-block:: console
+
   $ squeue
     JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     2   compute fds-smv-   ubuntu  R       6:07      2 ip-10-255-2-[21,41]
