@@ -256,7 +256,7 @@ lets go ahead and install tcl.
 Now lets start to add custom search strings and flags to our install specifications ``spec``. 
 Always use the ``spack spec -I`` command to spec out the install before you do the final install.
 
-first lets get some info the nmap package.
+first lets get some info the htop package.
 
 .. code-block:: console
 
