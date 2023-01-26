@@ -560,10 +560,20 @@ Now let's copy everything we will need for our cluster.
   $ cd /shared
   $ aws s3 cp s3://ubc-o-workshop.store.ubc-hpc.cloud/fds-smv-shared.tgz .
   $ tar -zxf fds-smv-shared.tgz
+  $ cd fds-smv/
+  $ nano fds-smv.sbatch
   
 -----------------
 Using Slurm
 -----------------
+
+Most used Slurm commands
+
+.. code-block:: console
+
+  $ sbatch
+  $ squeue
+  $ scancel
 
 Example Slurm Script
 
@@ -588,6 +598,28 @@ Example Slurm Script
   cd /shared/fds-smv/results
 
   srun -N 2 -n 2 --ntasks-per-node 2 fds /shared/fds-smv/Fires/fire_whirl_pool.fds
+
+Now let's run the job. 
+
+.. code-block:: console
+
+  $ sbatch fds-smv.sbatch 
+  $ squeue
+  
+If everything is working you should see the following. 
+
+.. code-block:: console
+
+  $ squeue
+    JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+    2   compute fds-smv-   ubuntu PD       0:00      2 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
+    
+Once the job gets underway you should see the following. 
+
+.. code-block:: console
+  $ squeue
+    JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+    2   compute fds-smv-   ubuntu  R       6:07      2 ip-10-255-2-[21,41]
 
 -----------------
 Visualize Results
