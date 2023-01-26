@@ -289,7 +289,7 @@ Notice how it fails due to dependencies with packages.
 
 .. code-block:: console
 
-  ==> Will not uninstall conmon@2.1.5%gcc@7.5.0/bsa7h3n
+  ==> Will not uninstall libtool@2.4.7%gcc@7.5.0/mvje3k2
   The following packages depend on it:
       -- linux-ubuntu18.04-skylake_avx512 / gcc@7.5.0 -----------------
       3l2cofs apptainer@1.1.4
