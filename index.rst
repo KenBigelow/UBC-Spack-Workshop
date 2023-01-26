@@ -625,3 +625,15 @@ Once the job gets underway you should see the following.
 -----------------
 Visualize Results
 -----------------
+
+Now that our job is finished lets have a look! 
+
+Using RONIN LINK open the Linux Desktop, then a xterm shell and run the following. 
+
+.. code-block:: console
+
+  $ source /apps/FDS/bin/FDS6VARS.sh
+  $ source /apps/FDS/bin/SMV6VARS.sh
+  $ smokeview /shared/fds-smv/results/fire_whirl_pool.smv
+
+
