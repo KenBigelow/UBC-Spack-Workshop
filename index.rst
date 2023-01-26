@@ -182,6 +182,7 @@ Some example query strings for fun.
 
 .. code-block:: console
 
+  $ spack list
   $ spack list 'py-*'
   $ spack list 'py-python*'
   $ spack list '*lib'
