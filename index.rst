@@ -29,7 +29,7 @@ custom build scripts for managing complex software stacks as well lessons
 learned using spack. Finally we will take everything we learned using spack
 and the package singularity / apptainer to create a singularity container
 and run this container using slurm inside of the autoscale cluster then
-visualize the results using the RONIN Link application. 
+visualize the results using the RONIN Link application.
 
 We will include a few output from the commands demonstrated, to save time
 we will frequently call attention to only small portions of
