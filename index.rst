@@ -494,7 +494,7 @@ Building Apptainer Containers
 
 .. code-block:: console
 
-  $ more spack.yaml
+  $ nano spack.yaml
   
 .. code-block:: console
   
