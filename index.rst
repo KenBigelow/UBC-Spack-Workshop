@@ -497,8 +497,6 @@ Step 1 yaml files
 .. code-block:: console
 
   $ spack spec --fresh -y dcm2niix > dc2niix.yaml
-  $
-
 
 -----------------
 Spack Cheat Sheet 
@@ -514,7 +512,7 @@ Building Apptainer Containers
 
 .. code-block:: console
 
-  $ vi spack.yaml
+  $ more spack.yaml
   
 .. code-block:: console
   
@@ -526,7 +524,9 @@ Building Apptainer Containers
   
 .. code-block:: console
 
-  $ spack containerize > spack-dcm2niix.def
+  $ module load apptainer
+  $ spack containerize > spack-user-dcm2niix.def
+  $ apptainer build spack-user-dcm2niix.sif spack-user-dcm2niix.def
   
 -----------------
 Using Apptainer Containers
@@ -543,11 +543,11 @@ RONIN Autoscale Cluster
 First let us configure the object storage on our cluster to grab the singularity images we created. 
 
 .. code-block:: console
-
+  
+  $ more s3-bucket-info
   $ aws configure
 
 Below is the example output for the information needed to connect to the S3 Bucket. 
-
 
 .. code-block:: console
 
