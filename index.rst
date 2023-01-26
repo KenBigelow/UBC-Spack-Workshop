@@ -518,7 +518,7 @@ Using Apptainer Containers
 
 .. code-block:: console
 
-  $ singularity exec spack-dcm2niix.sif dcm2niix -h
+  $ apptainer exec spack-user-dcm2niix.sif dcm2niix -h
 
 -----------------
 RONIN Autoscale Cluster
