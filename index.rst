@@ -545,11 +545,30 @@ Below is the example output for the information needed to connect to the S3 Buck
 Using Slurm
 -----------------
 
+Example Slurm Script
+
+.. code-block:: console
+
+  #!/bin/bash
+  #SBATCH --job-name=fds-smv-job
+  #SBATCH --nodes=2
+  ##SBATCH --ntasks=2
+  ##SBATCH --cpus-per-task=1
+  ##SBATCH --ntasks-per-node=2
+  #SBATCH --output=%x_%j.out
+
+  source /apps/FDS/bin/FDS6VARS.sh
+  source /apps/FDS/bin/SMV6VARS.sh
+
+  module load intelmpi
+
+  export OMP_NUM_THREADS=1
+  export I_MPI_PIN_DOMAIN=omp
+
+  cd /shared/fds-smv/results
+
+  srun -N 2 -n 2 --ntasks-per-node 2 fds /shared/fds-smv/Fires/fire_whirl_pool.fds
+
 -----------------
 Visualize Results
 -----------------
-
-
-
-
-
