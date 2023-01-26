@@ -545,6 +545,7 @@ Below is the example output for the information needed to connect to the S3 Buck
 Now let's copy everything we will need for our cluster. 
 
 .. code-block:: console
+
   $ cd /apps
   $ aws s3 cp s3://ubc-o-workshop.store.ubc-hpc.cloud/apps-fds-bins.tgz .
   $ tar -zxf apps-fds-bins.tgz
