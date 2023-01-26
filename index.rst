@@ -488,25 +488,6 @@ cache. Let's use a build cache and see how long it takes.
 Notice the difference with the installed packaged / compiler version vs non cache.  
 
 -----------------
-Spack Install Scripts
------------------
-
-Let's look at a way that we use scripts to work with spack for large complicated installs with the need to replicate 
-easily. 
-
-.. code-block:: console
-
-  $ spack spec --fresh -y dcm2niix > dc2niix.yaml
-
------------------
-Spack Cheat Sheet 
------------------
-
------------------
-Apptainer / Singularity 
------------------
-
------------------
 Building Apptainer Containers
 -----------------
 
