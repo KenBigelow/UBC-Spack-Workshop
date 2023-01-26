@@ -102,7 +102,7 @@ variable, source the Spack setup script.
 
 .. code-block:: console
 
-  $ . share/spack/setup-env.sh
+  $ . spack/share/spack/setup-env.sh
 
 Ready to go!
 
