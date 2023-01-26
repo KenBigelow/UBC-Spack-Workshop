@@ -525,6 +525,13 @@ RONIN Autoscale Cluster
 First let us configure the object storage on our cluster to grab the singularity images we created. 
 
 .. code-block:: console
+
+  $ sudo apt update
+  $ sudo apt upgrade
+  $ sudo apt install build-essential ca-certificates coreutils curl environment-modules gfortran git gpg lsb-release python3 python3-distutils python3-venv unzip zip
+  $ sudo apt install awscli
+
+.. code-block:: console
   
   $ more s3-bucket-info
   $ aws configure
