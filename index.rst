@@ -534,7 +534,7 @@ First let us configure the object storage on our cluster to grab the singularity
 
 .. code-block:: console
   
-  $ more s3-bucket-info
+  $ more bucket-keys
   $ aws configure
 
 Below is the example output for the information needed to connect to the S3 Bucket. 
