@@ -495,6 +495,7 @@ Building Apptainer Containers
 .. code-block:: console
 
   $ cd apptainer
+  $ . spack/share/spack/setup-env.sh 
   $ nano spack.yaml
   
 .. code-block:: console
