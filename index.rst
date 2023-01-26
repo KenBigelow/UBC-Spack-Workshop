@@ -419,7 +419,7 @@ Let's install a new compiler
 
 .. code-block:: console
 
-  $ spack install gcc@8.4.0
+  $ spack install --cache-only gcc@8.4.0
   
 .. code-block:: console
 
