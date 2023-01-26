@@ -458,8 +458,9 @@ Let's use the new version of gcc/8.4.0 and install a few packages.
 
   $ spack load gcc@8.4.0
   $ spack find --loaded
-  $ spack spec -I htop%gcc@8.4.0
-  $ spack install htop%gcc@8.4.0
+  $ spack spec -I bzip2
+  $ spack spec -I bzip2%gcc@8.4.0
+  $ spack install bzip2%gcc@8.4.0
   $ spack find
 
 The end result should result in packages both installed using ``gcc@7.5.0`` 
