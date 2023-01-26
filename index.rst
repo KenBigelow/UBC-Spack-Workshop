@@ -69,7 +69,7 @@ Spack works out of the box. Simply clone Spack to get going. We will
 clone Spack and immediately check out the most recent release, v0.20.
 
 But first...
-Lets make sure have the needed ubuntu packages for the VM. 
+Lets make sure have the needed Ubuntu packages for the VM. 
 
 .. code-block:: console
 
@@ -78,9 +78,9 @@ Lets make sure have the needed ubuntu packages for the VM.
   $ sudo apt install build-essential ca-certificates coreutils curl environment-modules gfortran git gpg lsb-release python3 python3-distutils python3-venv unzip zip
   $ sudo apt install awscli
   
-If you have already installed the above packages the output will varry. 
+If you have already installed the above packages the output will vary. 
 
-Now lets install spack.
+Now let's install spack.
   
 .. code-block:: console
 
@@ -195,7 +195,7 @@ The ``spack versions`` command list available versions of a package.
   $ spack versions --help
   $ spack versions tcl
   
-The ``spack find`` command shows installed packages / version / compiller used.
+The ``spack find`` command shows installed packages / version / compiler used.
 
 .. code-block:: console
 
@@ -273,7 +273,7 @@ Lets spec out version 3.2.0, disable hwloc and enable debug
   $ spack spec -I htop@3.2.0 ~hwloc +debug
 
 
-Lets go ahead and insall htop now. 
+Lets go ahead and install htop now. 
 
 .. code-block:: console
 
@@ -316,7 +316,7 @@ Loading up installed modules
 Spack Build Caches 
 -----------------
 
-The use of a ``binary cache`` can result in softwar e installs up to 20x faster 
+The use of a ``binary cache`` can result in software installs up to 20x faster 
 for common Spack package installs. This tutorial will explain through the process 
 of setting up a source mirror with a binary cache mirrors. Binary caches allow one 
 to install pre-compiled binaries to your spack installation path.
@@ -347,9 +347,9 @@ Now lets take a look inside the buidcache
 This is a very new addition to Spack. The options are limited
 and so filtering to specific arch is not yet functional. 
 
-Buid caches are hit and miss depending on spack versions and installed packaged. 
+Build caches are hit and miss depending on spack versions and installed packaged. 
 For example lammps is not listed in the buildcache mirror list. So most of the install
-will stll take some time.
+will still take some time.
 
 Some example commands to try. 
 
@@ -415,7 +415,7 @@ is an alias for the command ``spack compiler list``.
   -- gcc ubuntu18.04-x86_64 ---------------------------------------
   gcc@7.5.0
   
-Lets install a new compiler 
+Let's install a new compiler 
 
 .. code-block:: console
 
@@ -427,7 +427,7 @@ Lets install a new compiler
     Stage: 8.83s.  Autoreconf: 0.00s.  Configure: 2.33s.  Build: 1h 26m 41.56s.  Install: 32.20s.  Total: 1h 27m 25.21s
   [+] /home/ubuntu/spack/opt/spack/linux-ubuntu18.04-skylake_avx512/gcc-7.5.0/gcc-8.4.0-kf55dvoi3iuagjkvomjti2lemura7b42
 
-Now lets add the new compiler to our list of available compilers. Using the 
+Now let's add the new compiler to our list of available compilers. Using the 
 ``spack compiler add`` command. This will allow future packages to build 
 with gcc@8.4.0 if selected.
 
@@ -452,7 +452,7 @@ with gcc@8.4.0 if selected.
   -- gcc ubuntu18.04-x86_64 ---------------------------------------
   gcc@8.4.0  gcc@7.5.0  
   
-Lets use the new version of gcc/8.4.0 and install a few packages. 
+Let's use the new version of gcc/8.4.0 and install a few packages. 
 
 .. code-block:: console
 
@@ -466,7 +466,7 @@ The end result should result in packages both installed using ``gcc@7.5.0``
 and ``gcc@8.4.0``.
 
 Installing gcc/8.4.0 did take 1h 27m total as you can see above. I did not use a build
-cache. Lets use a build cache and see how long it takes. 
+cache. Let's use a build cache and see how long it takes. 
 
 .. code-block:: console
 
@@ -491,11 +491,8 @@ Notice the difference with the installed packaged / compiler version vs non cach
 Spack Install Scripts
 -----------------
 
-Lets look at 2 different ways that we use scripts to work with spack. 1 with yaml scripts to setup
-for container environments and the other for large complicated installs with the need to replicate 
+Let's look at a way that we use scripts to work with spack for large complicated installs with the need to replicate 
 easily. 
-
-Step 1 yaml files
 
 .. code-block:: console
 
