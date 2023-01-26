@@ -283,7 +283,7 @@ To uninstall a spack package.
 
 .. code-block:: console
 
-  $ spack uninstall conmon@2.1.5
+  $ spack uninstall libtool@2.4.7
 
 Notice how it fails due to dependencies with packages. 
 
