@@ -508,7 +508,7 @@ Building Apptainer Containers
   
 .. code-block:: console
 
-  $ module load apptainer
+  $ spack load apptainer
   $ spack containerize > spack-user-dcm2niix.def
   $ apptainer build spack-user-dcm2niix.sif spack-user-dcm2niix.def
   
