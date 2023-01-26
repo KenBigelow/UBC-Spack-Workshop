@@ -291,8 +291,8 @@ Notice how it fails due to dependencies with packages.
 
   ==> Will not uninstall libtool@2.4.7%gcc@7.5.0/mvje3k2
   The following packages depend on it:
-      -- linux-ubuntu18.04-skylake_avx512 / gcc@7.5.0 -----------------
-      3l2cofs apptainer@1.1.4
+    -- linux-ubuntu18.04-haswell / gcc@7.5.0 ------------------------
+    ha6adqe htop@3.2.0
   ==> Error: There are still dependents.
     use `spack uninstall --dependents` to remove dependents too
 
