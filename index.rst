@@ -548,17 +548,17 @@ Below is the example output for the information needed to connect to the S3 Buck
   
 .. code-block:: console
 
-  $ aws s3 ls s3://ubc-o-workshop.store.ubc-hpc.cloud
+  $ aws s3 ls s3://ubc-hpc.cloud
   
 Now let's copy everything we will need for our cluster. 
 
 .. code-block:: console
 
   $ cd /apps
-  $ aws s3 cp s3://ubc-o-workshop.store.ubc-hpc.cloud/apps-fds-bins.tgz .
+  $ aws s3 cp s3://ubc-hpc.cloud .
   $ tar -zxf apps-fds-bins.tgz
   $ cd /shared
-  $ aws s3 cp s3://ubc-o-workshop.store.ubc-hpc.cloud/fds-smv-shared.tgz .
+  $ aws s3 cp s3://ubc-hpc.cloud/fds-smv-shared.tgz .
   $ tar -zxf fds-smv-shared.tgz
   $ cd fds-smv/
   $ nano fds-smv.sbatch
