@@ -2,14 +2,14 @@
 
 Resources
 ---------
-* **UBC myVPN**: https://it.ubc.ca/services/email-voice-internet/myvpn
-* **UBC ARC RONIN Login:** https://ronin.ubc-hpc.cloud/ 
-* **Additional Information:** https://arc.ubc.ca/arc-cloud-platform-ubc-arc-ronin 
-* **RONIN Application Form:** https://flex.redcap.ubc.ca/surveys/?s=3AXLLYNYWW
-* **RONIN Blog:** https://blog.ronin.cloud/ 
-* **RONIN Link:** https://blog.ronin.cloud/ronin-link/ 
-* **RONIN/Spack Workshop:** https://ubc-spack-workshop.readthedocs.io
-* **UBC ARC Support:** arc.support@ubc.ca
+* **UBC myVPN**
+* **UBC ARC RONIN Login:** 
+* **Additional Information:**
+* **RONIN Application Form:** 
+* **RONIN Blog:** 
+* **RONIN Link:**
+* **RONIN/Spack Workshop:**
+* **UBC ARC Support:**
 
 
 =========================================
